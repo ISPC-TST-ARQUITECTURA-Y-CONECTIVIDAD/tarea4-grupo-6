@@ -9,4 +9,4 @@
 4. [Leonardo Gonzalez](https://github.com/leolgonzalez)
 5. [Mario Gonzalez](https://github.com/mariogonzalezispc)
 6. [Pedro Rojo](https://github.com/tecnosisnet)
-# Tarea4
+# [Actividad n4]![image](https://github.com/ISPC-TST-ARQUITECTURA-Y-CONECTIVIDAD/tarea4-grupo-6/blob/main/Actividad%20n4.jpg)
