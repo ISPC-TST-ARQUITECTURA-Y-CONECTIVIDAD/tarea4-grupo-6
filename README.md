@@ -1,2 +1,12 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11104072&assignment_repo_type=AssignmentRepo)
+![image](https://github.com/ISPC-TST-ARQUITECTURA-Y-CONECTIVIDAD/tarea1-grupo-6/blob/main/Portada.jpg)
+
+# ACTIVIDAD N° 4   -  GRUPO 6
+
+## Integrantes ##  
+1. [Andrés Montaño](https://github.com/maj3210) 
+2. [Emma Gutierrez](https://github.com/Emygut)
+3. [Federico Birge](https://github.com/FedeBirge)
+4. [Leonardo Gonzalez](https://github.com/leolgonzalez)
+5. [Mario Gonzalez](https://github.com/mariogonzalezispc)
+6. [Pedro Rojo](https://github.com/tecnosisnet)
 # Tarea4
