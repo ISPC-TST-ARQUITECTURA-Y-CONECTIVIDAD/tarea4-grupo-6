@@ -1,6 +1,7 @@
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 #include <DHT_U.h>
+#include <ArduinoJson.h>
 
 #define DHTPIN 7 //
 
@@ -28,6 +29,7 @@ void loop()
     Serial.print(F("Temperatura: "));
     Serial.print(event.temperature);
     Serial.println(F(" 'C"));
+	float temperatura = dht.readTemperature();
   }
   dht.humidity().getEvent(&event);
   if (isnan(event.relative_humidity))
@@ -39,5 +41,14 @@ void loop()
     Serial.print(F("Humedad: "));
     Serial.print(event.relative_humidity);
     Serial.println(F("%"));
+	float humedad = dht.readHumidity();
   }
+  StaticJsonDocument<200> doc;
+  doc["temperatura"] = temperatura;
+  doc["humedad"] = humedad;
+  
+  serializeJson(doc, Serial);
+  Serial.println();
+  
+  delay(2000);
 }
